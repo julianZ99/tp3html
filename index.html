@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JS DOM Manipulation</h1>
+    <h3>Use of getElementById()</h3>
+    <p id="myId"></p>
+
+    <h3>Use of getElementByClass()</h3>
+    <p class="test"></p>
+    <p class="test"></p>
+
+    <h3>Dynamic Tables</h3>
+    <input type="button" onclick="insertRow()" value="Insert row">
+    <input type="button" onclick="deleteRow()" value="Delete row">
+    <table style="width:100%" class="myTable">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+    </table>
+    <br>
+    <h3>Dynamic Text</h3>
+    <input type="button" onclick="highlight()" value="Highlight words">
+    <br>
+    <p>
+        Lorem <span class="myClass">ipsum</span> dolor sit <span class="myClass">amet</span>, consectetur adipiscing
+        elit, sed do eiusmod tempor <span class="myClass">incididunt</span>ut labore et dolore
+        <span class="myClass">magna</span> aliqua.
+    </p>
+
+    <script src="jsscript.js"></script>
+</body>
+
+</html>
